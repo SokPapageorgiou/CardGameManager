@@ -1,7 +1,7 @@
 {
     "name" : "com.wam.cardgamemamanger",
     "version" : "0.0.1",
-    "displayName" : "We Are Melting - Card Game Manager package",
+    "displayName" : "com.wam.cardgamemamanger",
     "description" : "C# package to handle Card Game Collections",
     "unity" : "2021.3",
     "author" : 
