@@ -1,0 +1,13 @@
+{
+    "name" : "com.wam.cardgameManager",
+    "version" : "0.0.1",
+    "displayName" : "We Are Melting - Card Game Manager package",
+    "description" : "C# package to handle Card Game Collections",
+    "unity" : "2021.3",
+    "author" : 
+    {
+        "name": "Sokratis Papageorgiou",
+        "email": "hello@sokpapageorgiou.com",
+        "url": "https://www.sokpapageorgiou.com/"
+    }
+}
