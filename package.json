@@ -1,7 +1,7 @@
 {
-    "name" : "com.wam.cardgamemamanger",
+    "name" : "com.wam.cardgamemanager",
     "version" : "0.0.1",
-    "displayName" : "com.wam.cardgamemamanger",
+    "displayName" : "com.wam.cardgamemananger",
     "description" : "C# package to handle Card Game Collections",
     "unity" : "2021.3",
     "author" : 
