@@ -1,5 +1,5 @@
 {
-    "name" : "com.wam.cardgameManager",
+    "name" : "com.wam.cardgamemamanger",
     "version" : "0.0.1",
     "displayName" : "We Are Melting - Card Game Manager package",
     "description" : "C# package to handle Card Game Collections",
