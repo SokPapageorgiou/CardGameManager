@@ -2,21 +2,21 @@
 {
     public class CardDealer<T>
     {
-        private readonly Holder<T> _holder;
-        private DeckController<T> _cardHandler;
+        private readonly DeckBox<T> _box;
+        private readonly DeckController<T> _controller;
 
-        public CardDealer(Holder<T> holder, DeckController<T> cardHandler)
+        public CardDealer(DeckBox<T> holder, DeckController<T> controller)
         {
-            _holder = holder;
-            _cardHandler = cardHandler;
+            _box = holder;
+            _controller = controller;
         }
 
         public void InitDeck(T[] cards) =>
-            _holder.Deck = _cardHandler.GetDeck(cards);
+            _box.Deck = _controller.GetDeck(cards);
 
-        public T Draw() => _holder.Deck.Pop();
+        public T Draw() => _box.Deck.Pop();
 
-        public void Discard(T card) => _holder.Discarded.Push(card);
+        public void Discard(T card) => _box.Discarded.Push(card);
 
     }
 }
