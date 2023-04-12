@@ -28,14 +28,14 @@ namespace CardGameManager.Runtime.Deck
 
         private Stack<T> StackCards(T[] cards)
         {
-            var deck = new Stack<T>();
+            var stack = new Stack<T>();
             
             foreach (var card in cards)
             {
-                deck.Push(card);    
+                stack.Push(card);    
             }
 
-            return deck;
+            return stack;
         }
     }
 }
