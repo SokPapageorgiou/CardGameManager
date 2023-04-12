@@ -7,10 +7,10 @@ namespace CardGameManager.Runtime.Deck
         public Stack<T> Deck { get; set; }
         public Stack<T> Discarded { get; set; }
 
-        public DeckBox()
+        public DeckBox(Stack<T> deck, Stack<T> discarded)
         {
-            Deck = new Stack<T>();
-            Discarded = new Stack<T>();
+            Deck = deck;
+            Discarded = discarded;
         }
     }
 }
